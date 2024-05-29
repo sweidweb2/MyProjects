@@ -1,0 +1,137 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="home1.css">
+</head>
+<body>
+    <header>
+        <!--Navigation bar-->
+        <nav class="home-nav">
+            <div class="website-name">
+                <!--<img src="" alt="" class="nav-icon">icon-->
+                <h1 class="about-website-name">TripTrove</h1><!--website title-->
+            </div>
+
+            <div class="website-services">
+                <ul>
+                    <li class="services-list-home"><a href="home1.html">Home</a></li>
+                    <li class="services-list-service active"><a href="service.html">Service</a></li>
+                    <li class="services-list-about"><a href="about.html">About us</a></li>
+                    <!-- <li class="services-list-offers">Offers</li> -->
+                </ul>
+            </div>
+
+            <div class="website-signup">
+                <ul>
+                    <li class="website-signin"><a href="login.html">Login</a></li>
+                    <li class="website-register active"><a href="login.html"></a>Register</li>
+                </ul>
+            </div>
+        </nav>
+
+        <!--Header-->
+        <div class="home-header">
+            <img 
+            src=""
+            alt=""
+            class="header-images"
+            id="header-images">
+
+            <div class="header-arrows">
+                <span class="prevbtn" id="prevbtn"><</span>
+                <span class="nextbtn" id="nextbtn">></span>
+            </div>
+        </div>
+
+        <!--service header-->
+        <div class="service-filter">
+            <!--location-->
+            <div class="service-filter-location">
+                <label for="location">Location</label>
+                <input type="text" name="location" placeholder="Enter location" id="service-location-input">
+            </div>
+
+            <!--Date-->
+            <div class="service-filter-date">
+                <label for="Date">Date</label>
+                <input type="date" name="Date" placeholder="choose date" id="service-date-input">
+            </div>
+
+            <!--people-->
+            <div class="service-filter-people">
+                <label for="People">People</label>
+                <input type="text" name="People" placeholder="number of people" id="service-people-input">
+            </div>
+            <div class="service-filter-explore-container">
+                <span class="service-filter-explore" id="service-filter-explore">Explore now...</span>
+            </div>
+        </div>
+        <div class="service-items" id="service-items">
+        </div>
+    </header>
+    <!--footer-section1-->
+    <div class="footer-section1">
+
+        <div class="footer-email">
+            <h1>Be Future Ready</h1>
+            <p>Get exclusive<span>Digital marketing updates straight inbox</span></p>
+            <input type="text" placeholder="Email address">
+        </div>
+
+        <div class="footer-about">
+            <h4>About</h4>
+            <p id="footer-forward-about">our team</p>
+            <p id="footer-forward-about">Clients</p>
+            <p id="footer-forward-about">Press</p>
+            <p id="footer-forward-about">Blog</p>
+        </div>
+
+        <div class="footer-training">
+            <h4>Corporate training</h4>
+            <p>Leadership</p>
+            <p>Participants</p>
+        </div>
+
+        <div class="footer-contact">
+            <h4>Contact Us</h4>
+            <p><i class="fa-solid fa-phone"></i> +961 76 722 832</p>
+            <p><i class="fa-solid fa-envelope"></i> TripTrop@gmail.com</p>
+            <p><i class="fa-solid fa-location-dot"></i> Autostrad sayed hadi singapore | 2880</p>
+        </div>
+    </div>
+
+    <!--footer-section2-->
+    <div class="footer-section2">
+        <div class="footer-copyright">
+            <p>&copy;2016 TripTrop private LTD.all rights served</p>
+        </div>
+        <div class="footer-media">
+            <a href="">
+                <i class="white-fa-brands fa-facebook fa-brands"></i>
+            </a>
+            <a href="">
+                <i class="white-fa-brands fa-linkedin fa-brands"></i>
+            </a>
+            <a href="">
+                <i class="white-fa-brands fa-x-twitter fa-brands"></i>
+            </a>
+            <a href="">
+                <i class="white-fa-brands fa-instagram fa-brands"></i>
+            </a>
+            <a href="">
+                <i class="white-fa-brands fa-youtube fa-brands"></i>
+            </a>
+        </div>
+        <div class="footer-privacy">
+            <p>Term Of Sservices</p>
+            <p>Privacy Policy</p>
+        </div>
+    </div>
+
+    <script src="service.js"></script>
+</body>
+</html>

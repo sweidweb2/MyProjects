@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: url(image/login-back.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.register-signin-container{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    min-height: 70vh;
+    border-radius: 15px;
+}
+
+.info-left-div-img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px 0 0 15px;
+}
+
+.info-left-div{
+    width: 40%;
+}
+
+.register-right-div{
+    background-color: rgba(255,255,255,.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 0 15px 15px 0;
+    width: 60%;
+    padding: 3em;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.register-inputs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.already-have-account{
+    font-size: .8rem;
+    width: 100%;
+}
+
+.register-inputs label{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-bottom: .7em;
+}
+
+.register-inputs label input{
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: .5em;
+}
+
+.register-checkboxes{
+    font-size: .8rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#recieve-email,#agreement{
+    accent-color:rgb(85, 153, 85);
+    color: white;
+}
+
+.privacy-and-policy{
+    color: black;
+}
+
+.register-btn{
+    padding: .8em;
+    background-color: #39A7FF;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.register-btn:hover{
+    background-color: white;
+    color: #39A7FF;
+}
+
+.login-forward{
+    text-decoration: none;
+}
+
+.error{
+    font-size: .8rem;
+    color: red;
+    font-style: italic;
+}
+
+/*==============login==============*/
+
+.login-right-div{
+    background-color: rgba(255,255,255,.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 0 15px 15px 0;
+    width: 60%;
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.login-inputs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-inputs label{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-bottom: .7em;
+    margin: 0 auto;
+}
+
+.login-inputs label input{
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: .5em;
+    margin-bottom: 1.5em;
+}
+
+.login-btn{
+    padding: .8em;
+    background-color: #39A7FF;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.login-btn:hover{
+    background-color: white;
+    color: #39A7FF;
+}
+
+.Register-forward{
+    text-decoration: none;
+    color: black;
+    width: 70%;
+    font-size: .8rem;
+    margin-top: 0;
+    text-decoration: underline;
+}
+.Register-forward:hover{
+    color: white;
+}
